@@ -24,7 +24,8 @@ public class Problem104 extends Problem {
 
   @Override
   public void runTestCases() {
-    System.out.println("Requires API from LeetCode site");
+    throw new IllegalCallerException(
+        "Can't run test cases because this problem depends on API from the leetcode site that wasn't provided");
   }
 
   /** Definition for a binary tree node. */
