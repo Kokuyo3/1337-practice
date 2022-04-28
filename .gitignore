@@ -1,8 +1,12 @@
 # IntelliJ project files
-.idea
+.idea/*
 *.iml
 out
 gen
+
+# Include IntelliJ file template for the Leetcode solution class
+!.idea/fileTemplates
+!.idea/file.template.settings.xml
 
 # Gradle
 .gradle
