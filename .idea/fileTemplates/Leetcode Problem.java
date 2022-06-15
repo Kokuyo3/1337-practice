@@ -5,13 +5,20 @@ import java.util.Arrays;
 
 /**
  * ${LEETCODE_NUMBER}. ${LEETCODE_TITLE}
- *
- * <p>${LEETCODE_URL}
+ * <p>
+ * ${LEETCODE_URL}
  *
  * @author Cheryl Tang
  */
 public class Problem${LEETCODE_NUMBER} extends Problem {
 
+  /**
+   * This solution uses _____.
+   * <p>
+   * The time complexity is _____ because _____.
+   * <p>
+   * The space complexity is _____ because _____.
+   */
   ${BASE_SOLUTION_METHOD}
 
   @Override
